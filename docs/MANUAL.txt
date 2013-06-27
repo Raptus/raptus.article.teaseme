@@ -11,6 +11,6 @@ Code overview
 Components
 ----------
 
-plone.abovecontentbody
-``````````````````````
+plone.abovecontent
+``````````````````
 - raptus.article.teaseme

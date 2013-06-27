@@ -9,7 +9,7 @@ long_description = (
     'Contributors\n'
     '============\n'
     + '\n' +
-    open('CONTRIBUTORS.txt').read()
+    open('CONTRIBUTORS.txt').read() + "\n" +
     open("CHANGES.txt").read())
 
 setup(name='raptus.article.teaseme',
@@ -33,8 +33,8 @@ setup(name='raptus.article.teaseme',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'raptus.article.core',
-          'raptus.article.nesting',
+          'raptus.backgroundsize',
+          'raptus.article.core>2.0b12',
           'raptus.article.teaser',
           # -*- Extra requirements: -*-
       ],
